@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/fotodiri"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="150sp"
+        android:text="Profile Diri"
+        android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="10sp"
+            android:text="Nama : Muhammad Humam Ramadhan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="10sp"
+            android:text="NIM : 10118419"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="10sp"
+            android:text="Kelas : IF-10"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="10sp"
+                android:text="Email : humam.10118419@mahasiswa.unikom.ac.id"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="10sp"
+            android:text="Saya dipanggil Yuma, saya tinggal di ketapang kalimantan barat saya anak ke 2 dari 2 bersaudara"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:background="@color/buttonColor"
+            android:textColor="@color/textbuttonColor"
+            android:textSize="15sp"
+            android:text="Back To Home"/>
+
+</LinearLayout>
+
+</RelativeLayout>
